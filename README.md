@@ -11,6 +11,9 @@ Send messages to thousands of people on whatsapp using at once
 * Clone the repository by typing `git clone https://github.com/Gbemiro8/Bulk_Whatsapp.git`
 
 * Set up your environment variables that will contain `TWILIO_ACCOUNT_SID` and `TWILIO_AUTH_TOKEN`
+    * To create environment variables
+    * type `sudo vim /etc/environment` or replace vim with any text editor of your choice and press enter
+    * Type `TWILIO_ACCOUNT_SID="your account id"` and `TWILIO_AUTH_TOKEN="your_auth_token"` on a new line
 
 * include your phone phone number in the `from_whatsapp_number` and the number you're sending to in the `to_whatsapp_number`
 
